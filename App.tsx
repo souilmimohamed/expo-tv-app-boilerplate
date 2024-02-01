@@ -13,8 +13,12 @@ export default function App() {
     <View style={styles.container}>
       <TouchableOpacity onPress={() => {}}>
         <Text style={styles.text}>
-          This example enables an instance of TVEventHandler to show the last
-          event detected from the Apple TV Siri remote or from a keyboard.
+          ELEMENT 1
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => {}}>
+        <Text style={styles.text}>
+          ELEMENT 2
         </Text>
       </TouchableOpacity>
       <Text style={{color: 'white'}}>{lastEventType}</Text>
