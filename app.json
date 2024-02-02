@@ -31,7 +31,10 @@
       [
         "@react-native-tvos/config-tv",
         {
-          "showVerboseWarnings": true
+          "isTV": true,
+          "showVerboseWarnings": true,
+          "tvosDeploymentTarget": "13.4",
+          "removeFlipperOnAndroid": true
         }
       ]
     ]
