@@ -67,7 +67,7 @@ const HomeScreen = () => {
         ))}
       </View>
       <Text className="text-white text-sm font-bold absolute bottom-0">
-        V 1.0.0
+        {lastEventType}
       </Text>
     </TVFocusGuideView>
   );
